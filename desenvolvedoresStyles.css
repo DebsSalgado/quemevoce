@@ -1,0 +1,68 @@
+body {
+    background-color: #D92534;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #0D9FD9;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    border-bottom: 2px solid black; /* Adicione a borda preta na parte inferior */
+}
+
+#desenvolvedores {
+    display: block; /* Certifique-se de que a imagem seja exibida como bloco para centralizar horizontalmente. */
+    margin: 0 auto; /* Centralize horizontalmente a imagem. */
+    width: 50%
+}
+
+
+nav {
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #F29D35;
+}
+
+#logo {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+#Logo__Home {
+    max-width: 450px;
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center; /* Centralize horizontalmente os elementos dentro do rodapé */
+    align-items: center; /* Centralize verticalmente os elementos dentro do rodapé (opcional) */
+}
+
+#instagramIcon {
+    margin-left: 20px;
+    width: 2%;
+    height: 2%;
+    cursor: pointer;
+    
+}
+
+h2 {
+    margin-left: 20px;
+}

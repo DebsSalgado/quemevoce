@@ -1,0 +1,61 @@
+body {
+    background-color: #D92534;
+
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #0D9FD9;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    border-bottom: 2px solid black; /* Adicione a borda preta na parte inferior */
+
+}
+#logo {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 50px;
+
+}
+footer {
+    margin-top: 20px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center; /* Centralize horizontalmente os elementos dentro do rodapé */
+    align-items: center; /* Centralize verticalmente os elementos dentro do rodapé (opcional) */
+}
+
+#instagramIcon {
+    margin-left: 20px;
+    width: 2%;
+    height: 2%;
+    cursor: pointer;
+    
+}
+
+h2 {
+    margin-left: 20px;
+}
+#regras {
+    width:70%;
+    margin-left:19%
+}
+
+nav {
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #F29D35;
+}
